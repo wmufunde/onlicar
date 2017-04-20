@@ -5,14 +5,15 @@
 
 <div class="jumbotron text-center">
   <div class="container">
-{% if msg %}
-    <h3>Data population Successful, Please click on populate button to initiate the database population again.</h3>
+
+{% if data %}
+     <h3> Here's data from the Jason File as a table</h3>
     {% else %}
-     <h3>Click on populate button to initiate the database population.</h3>
+     <h4>Click on show data button to view data from the Jason File as a table</h4>
 
 {% endif %}
 
-
+{% if not data %}
   <form class="form-horizontal" method="POST" action="">
      {% csrf_token %}
 <fieldset>
@@ -21,16 +22,52 @@
 
 
 <!-- Button -->
+
 <div class="form-group">
-  <label class="col-md-4 control-label" for="populate">Load Drivers</label>
+  <label class="col-md-4 control-label" for="populate"></label>
   <div class="col-md-4">
-    <button id="populate" name="populate" class="btn btn-success"><span class="glyphicon glyphicon-download"></span> Load Drivers</button>
+    <button id="populate" name="populate" class="btn btn-success"><span class="glyphicon glyphicon-download"></span> Populate</button>
   </div>
 </div>
 
 </fieldset>
 </form>
+      {% endif %}
+      <hr>
+      {% if data %}
 
+<table class="table table-bordered">
+    <thead>
+
+      <tr>
+        <th>Driver Name</th>
+        <th>Insurance</th>
+        <th>Tax</th>
+        <th>MOT</th>
+        <th>Phone No.</th>
+        <th>lastMotDate</th>
+        <th>Model Name</th>
+      </tr>
+
+    </thead>
+    <tbody>
+    {% for row in data %}
+      <tr>
+        <td>{{row.0}}</td>
+        <td>{{row.1}}</td>
+        <td>{{row.2}}</td>
+        <td>{{row.3}}</td>
+        <td>{{row.4}}</td>
+        <td>{{row.5}}</td>
+        <td>{{row.6}}</td>
+
+
+      </tr>
+    {% endfor %}
+
+    </tbody>
+  </table>
+      {% endif %}
   </div>
 </div>
 
