@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="jumbotron text-center">
+  <div class="container">
+{% if msg %}
+    <h3>Data population Successful, Please click on populate button to initiate the database population again.</h3>
+    {% else %}
+     <h3>Click on populate button to initiate the database population.</h3>
+
+{% endif %}
+
+
+  <form class="form-horizontal" method="POST" action="">
+     {% csrf_token %}
+<fieldset>
+
+<!-- Form Name -->
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="populate">Load Drivers</label>
+  <div class="col-md-4">
+    <button id="populate" name="populate" class="btn btn-success"><span class="glyphicon glyphicon-download"></span> Load Drivers</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+[
+  {
+    "customer": "onlicar",
+    "driver_phone": "7575464534",
+    "model_data": "{'fuelType': 'Petrol', 'modelGroup': 'Corsa', 'lastMotDate': '08/09/2016', 'modelCode': 'VAY7', 'capCode': 'VACO12LIM3HPIM  4   ', 'resultCount': 1, 'bhp': 84.0, 'transmissionType': 'Manual', 'additionalData': {'manufacturer': 'Vauxhall', 'cabType': None, 'fuel': 'Petrol', 'modelVariantName': 'Limited Edition', 'bhp': 86, 'doors': 3, 'axles': None, 'gearboxType': 'Manual', 'body': 'Hatchback', 'model': 'Corsa', 'engineSize': 1.2, 'cc': 1229}, 'driveType': 'Front Wheel', 'bodyStyle': 'Hatchback', 'doors': 3, 'fleetnetCode': 'VA0H01070HC33OM55P0FC23COJ008500001229UK', 'modelYear': '12A', 'fuelDelivery': 'Injection', 'cc': 1229, 'fleetnetEdi': '277408', 'endOfProduction': '18/06/2012', 'lastMotResult': 'Pass', 'idscode': 'VA017788', 'modelDescription': 'Old CORSA SPECIAL EDITION model range', 'vehicleDescription': 'Corsa 3 Door Hatch 1.2i VVT Limited Edition Air Con', 'dateOfVehicleRegistration': '25/05/2012', 'co2emissions': 129.0, 'vehicleTreeDescription': '1.2i VVT Limited Edition Air Con', 'dvla': {'bodyClass': 'Car', 'manufacturer': 'VAUXHALL', 'priorUse': 0, 'cO2': 129, 'dateOfV5C': '04/09/2015', 'vehicleColour': 'WHITE', 'lastColourDate': '01/01/0001', 'vehicleIdentificationNumberEnding': '3269', 'previousColours': 0, 'cherishedTransferMarker': None, 'engineNumber': '19AD6885', 'body': '3 DOOR HATCHBACK', 'dateOfManufacture': '25/05/2012', 'vehicleIdentificationNumber': 'W0L0SDL08C6083269', 'model': 'CORSA LIMITED EDITION'}, 'motRenewalDate': '07/09/2017', 'dateOfIntroduction': '21/10/2011', 'engineConfigurationType': '4 Cylinder In-Line', 'manufacturerCode': 'VA', 'manufacturerName': 'VAUXHALL'}",
+    "car_group": "k",
+    "tax": 1523016268,
+    "mot": 1523016282,
+    "start_mileage": 7500,
+    "vrn": "SB12JVG",
+    "driver_name": "Sheeraz_sis",
+    "imei": "868500020024667",
+    "insurance": 1523016282
+  },
+  {
+    "customer": "onlicar",
+    "driver_phone": "7961000366",
+    "model_data": "{'fuelType': 'Petrol', 'modelGroup': 'Jazz', 'lastMotDate': '31/10/2016', 'modelCode': 'HOYD', 'capCode': 'HOJA13EX 5HPIM  2   ', 'resultCount': 1, 'bhp': 97.0, 'transmissionType': 'Manual', 'additionalData': {'manufacturer': 'Honda', 'cabType': None, 'fuel': 'Petrol', 'modelVariantName': 'EX', 'bhp': 100, 'doors': 5, 'axles': None, 'gearboxType': 'Manual', 'body': 'Hatchback', 'model': 'Jazz', 'engineSize': 1.4, 'cc': 1339}, 'driveType': '', 'bodyStyle': 'Hatchback', 'doors': 5, 'fleetnetCode': 'HO0J0E02DHC51FM55P0FC25CLJ010000001339UK', 'modelYear': '10 ', 'fuelDelivery': 'Injection', 'cc': 1339, 'fleetnetEdi': '244117', 'endOfProduction': '06/06/2010', 'lastMotResult': 'Pass', 'idscode': 'HO001981', 'modelDescription': 'Old JAZZ model range', 'vehicleDescription': 'Jazz 5 Door Hatch 1.4 i-VTEC EX', 'dateOfVehicleRegistration': '30/03/2010', 'co2emissions': 130.0, 'vehicleTreeDescription': '1.4 i-VTEC EX', 'dvla': {'bodyClass': 'Car', 'manufacturer': 'HONDA', 'priorUse': 0, 'cO2': 130, 'dateOfV5C': '06/01/2016', 'vehicleColour': 'SILVER', 'lastColourDate': '01/01/0001', 'vehicleIdentificationNumberEnding': '9017', 'previousColours': 0, 'cherishedTransferMarker': None, 'engineNumber': 'L13Z12209213', 'body': '5 DOOR HATCHBACK', 'dateOfManufacture': '30/03/2010', 'vehicleIdentificationNumber': 'SHHGG6780AU009017', 'model': 'JAZZ EX I-VTEC'}, 'motRenewalDate': '04/11/2017', 'dateOfIntroduction': '01/12/2009', 'engineConfigurationType': '4 Cylinder In-Line', 'manufacturerCode': 'HO', 'manufacturerName': 'HONDA'}",
+    "car_group": "chelsea",
+    "tax": "0",
+    "mot": "0",
+    "start_mileage": 7500,
+    "vrn": "GM16KFR",
+    "driver_name": "Chelsea",
+    "imei": "868500020024360",
+    "insurance": "0"
+  },
+  {
+    "customer": "onlicar",
+    "driver_phone": "7575464534",
+    "model_data": "{'fuelType': 'Diesel', 'modelGroup': 'Ibiza SC', 'lastMotDate': '21/04/2016', 'modelCode': 'SEYB', 'capCode': 'SEIB16FR 3HDTM  7   ', 'resultCount': 1, 'bhp': 104.0, 'transmissionType': 'Manual', 'additionalData': {'manufacturer': 'SEAT', 'cabType': None, 'fuel': 'Diesel', 'modelVariantName': 'FR', 'bhp': 105, 'doors': 3, 'axles': None, 'gearboxType': 'Manual', 'body': 'Hatchback', 'model': 'Ibiza Sport Coupe', 'engineSize': 1.6, 'cc': 1598}, 'driveType': 'Front Wheel', 'bodyStyle': 'Coupe/Targa', 'doors': 3, 'fleetnetCode': 'SE0M04003HC31TM55D0FC23CPA010500001598UK', 'modelYear': '13 ', 'fuelDelivery': 'Turbo', 'cc': 1598, 'fleetnetEdi': '280168', 'endOfProduction': '26/05/2013', 'lastMotResult': 'Pass', 'idscode': 'SE001853', 'modelDescription': 'Old IBIZA SC model range', 'vehicleDescription': 'Ibiza 3 Door Sport Coupe 1.6 TDI CR FR', 'dateOfVehicleRegistration': '14/05/2013', 'co2emissions': 112.0, 'vehicleTreeDescription': '1.6 TDI CR FR', 'dvla': {'bodyClass': 'Car', 'manufacturer': 'SEAT', 'priorUse': 0, 'cO2': 112, 'dateOfV5C': '25/10/2016', 'vehicleColour': 'WHITE', 'lastColourDate': '01/01/0001', 'vehicleIdentificationNumberEnding': '5808', 'previousColours': 0, 'cherishedTransferMarker': None, 'engineNumber': 'CAY R90589', 'body': '3 DOOR HATCHBACK', 'dateOfManufacture': '14/05/2013', 'vehicleIdentificationNumber': 'VSSZZZ6JZDR155808', 'model': 'IBIZA FR CR TDI'}, 'motRenewalDate': '13/05/2017', 'dateOfIntroduction': '28/05/2012', 'engineConfigurationType': '4 Cylinder In-Line', 'manufacturerCode': 'SE', 'manufacturerName': 'SEAT'}",
+    "car_group": "k",
+    "tax": 978307200,
+    "mot": 978307200,
+    "start_mileage": "33",
+    "vrn": "DE13ZMU",
+    "driver_name": "Sheeraz_mom",
+    "imei": "868500020024733",
+    "insurance": 978307200
+  }
+]
